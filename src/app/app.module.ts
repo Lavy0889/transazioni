@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TransazioniListComponent } from './components/transazioni-list/transazioni-list.component';
+import { TransazioneDetailiComponent } from './components/transazione-detail/transazione-detaili.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TransazioniListComponent,
+    TransazioneDetailiComponent
   ],
   imports: [
     BrowserModule,
